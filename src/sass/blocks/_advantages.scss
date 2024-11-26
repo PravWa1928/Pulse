@@ -1,0 +1,32 @@
+.advantages {
+  padding: 70px 0 65px 0;
+  background: #f6f6f6;
+  &__wrapper {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 65px;
+  }
+  &__item {
+    width: 33.33%;
+    &-title {
+      margin-top: 30px;
+    }
+    &-descr {
+      margin-top: 20px;
+      span {
+        color: #f00;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 18px;
+        text-decoration-line: underline;
+        text-decoration-style: solid;
+        text-decoration-skip-ink: none;
+        text-decoration-thickness: auto;
+        text-underline-offset: auto;
+        text-underline-position: from-font;
+      }
+    }
+  }
+}
